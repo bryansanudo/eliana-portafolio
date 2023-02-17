@@ -8,6 +8,7 @@ import portfolio6 from "@/assets/portfolio/portfolio6.jpg";
 import portfolio7 from "@/assets/portfolio/portfolio7.jpg";
 import portfolio8 from "@/assets/portfolio/portfolio8.jpg";
 import portfolio9 from "@/assets/portfolio/portfolio9.jpg";
+import portfolio10 from "@/assets/portfolio/portfolio10.jpg";
 
 import portfolio1 from "@/assets/portfolio/portfolio1.mp4";
 import portfolio2 from "@/assets/portfolio/portfolio2.mp4";
@@ -17,51 +18,58 @@ const Portfolio = () => {
     {
       id: 3,
       src: portfolio3,
-      category: "Buso",
-      code: "https://www.instagram.com/p/CmSY98cOJ_n/",
-      brand: "@lalaclothes2",
+      category: "Título",
+      code: "https://www.instagram.com/p/CMw8aGbhE8t/",
+      brand: "@elianacaro12",
     },
     {
       id: 4,
       src: portfolio4,
-      category: "Fotografia",
-      code: "https://www.instagram.com/p/ClOduEuO_qr/",
-      brand: "@not_freelancephotography",
+      category: "Título",
+      code: "https://www.instagram.com/p/B-7w99hhOkE/",
+      brand: "@elianacaro12",
     },
     {
       id: 5,
       src: portfolio5,
-      category: "Gafas",
-      code: "https://www.instagram.com/p/Ch-5JCbuxO5/",
-      brand: "@adler.oficial",
+      category: "Título",
+      code: "https://www.instagram.com/p/CKlyZrJBkm4/",
+      brand: "@elianacaro12",
     },
     {
       id: 6,
       src: portfolio6,
-      category: "Outfit",
-      code: "https://www.instagram.com/p/CjvaMkWsZlv/",
-      brand: "@amatista08boutique",
+      category: "Título",
+      code: "https://www.instagram.com/p/CcYbF4IOfI7/",
+      brand: "@elianacaro12",
     },
     {
       id: 7,
       src: portfolio7,
-      category: "Maquillaje",
-      code: "https://www.instagram.com/p/CkOIGXoOWhC/",
-      brand: "@doratamakeup",
+      category: "Título",
+      code: "https://www.instagram.com/p/CLrrVYNB42d/",
+      brand: "@elianacaro12",
     },
     {
       id: 8,
       src: portfolio8,
-      category: "Look",
-      code: "https://www.instagram.com/p/Chnsc2GlLWe/",
-      brand: "@pieddyloperapeinados",
+      category: "Título",
+      code: "https://www.instagram.com/p/CfbxAY6unRd/",
+      brand: "@elianacaro12",
     },
     {
       id: 9,
       src: portfolio9,
-      category: "Turismo",
-      code: "https://www.instagram.com/p/ClHt-x3st_1/",
-      brand: "@cabana_montes",
+      category: "Título",
+      code: "https://www.instagram.com/p/CoEISn3sc55/",
+      brand: "@elianacaro12",
+    },
+    {
+      id: 10,
+      src: portfolio10,
+      category: "Título",
+      code: "https://www.instagram.com/p/CcDaM4duObw/",
+      brand: "@elianacaro12",
     },
   ];
 
@@ -79,7 +87,11 @@ const Portfolio = () => {
         <div className="mx-auto flex h-full w-full max-w-screen-lg flex-col justify-center p-4 ">
           <div className="grid gap-8 md:px-12 grid-cols-1 sm:grid-cols-2  lg:grid-cols-2">
             <div className="rounded-lg shadow-lg shadow-thPrimary duration-200 hover:scale-105">
-              <a href="" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.instagram.com/p/Ci7wURvPIGo/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <div className="flex flex-col items-center justify-center">
                   <video
                     src={portfolio1}
@@ -90,8 +102,8 @@ const Portfolio = () => {
                     playsInline
                     className="h-[330px] md:h-[500px]  w-full  object-cover rounded-t-xl "
                   />
-                  <p className="m-4 capitalize text-sm md:text-lg">sdsfdsaf</p>
-                  <p className="m-4 text-sm md:text-lg">sfkljsd</p>
+                  <p className="m-4 capitalize text-sm md:text-lg">Título</p>
+                  <p className="m-4 text-sm md:text-lg">@elianacaro12</p>
                 </div>
               </a>
             </div>
@@ -115,7 +127,11 @@ const Portfolio = () => {
               </div>
             ))}
             <div className="rounded-lg shadow-lg shadow-thPrimary duration-200 hover:scale-105">
-              <a href="" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.instagram.com/p/ClJe5NuohD5/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <div className="flex flex-col items-center justify-center">
                   <video
                     src={portfolio2}
@@ -126,8 +142,8 @@ const Portfolio = () => {
                     playsInline
                     className="h-[330px] md:h-[500px]  w-full  object-cover rounded-t-xl "
                   />
-                  <p className="m-4 capitalize text-sm md:text-lg">sdfsdf</p>
-                  <p className="m-4 text-sm md:text-lg">sdfs</p>
+                  <p className="m-4 capitalize text-sm md:text-lg">Título</p>
+                  <p className="m-4 text-sm md:text-lg">@elianacaro12</p>
                 </div>
               </a>
             </div>

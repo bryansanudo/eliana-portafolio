@@ -34,7 +34,7 @@ const Services = () => {
 
         <div className="w-full lg:w-1/2 flex justify-center">
           <a
-            href="https://www.instagram.com/p/CogCoiuuub4/"
+            href="https://www.instagram.com/p/Ced88RsqyHx/"
             target="_blank"
             rel="noreferrer"
           >

@@ -12,10 +12,16 @@ const Contact = () => {
           <ContactForm />
         </div>
         <div className="w-full lg:w-1/2 h-full p-4 flex items-center content-center flex-col  ">
-          <img
-            src={contact}
-            className="object-cover duration-300 w-[350px] h-[300px] md:w-[500px] md:h-[420px] shadow-md shadow-thPrimary rounded-lg"
-          />
+          <a
+            href="https://www.instagram.com/p/Cb-Vtn7uJ_K/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={contact}
+              className="object-cover duration-300 w-[350px] h-[300px] md:w-[500px] md:h-[420px] shadow-md shadow-thPrimary rounded-lg hover:scale-105"
+            />
+          </a>
 
           <div className="w-[200px] sm:w-[350px]  md:w-[500px]  mt-10 group flex items-center justify-center gap-6 rounded-lg shadow-lg shadow-thPrimary  p-3  ">
             <a
@@ -27,7 +33,7 @@ const Contact = () => {
               <FaInstagram size={40} />
             </a>
             <a
-              href="https://www.facebook.com/sara.zapataarias.5"
+              href="https://www.instagram.com/elianacaro12/"
               target="_blank"
               rel="noreferrer"
               className="group-hover:scale-105 duration-200"
