@@ -5,6 +5,7 @@ import HeroSection from "@/components/HeroSection";
 import Services from "@/components/Services";
 import Portfolio from "@/components/Portfolio";
 import Contact from "@/components/Contact";
+import Friends from "@/components/Friends";
 
 function App() {
   const [isMenuShown, setIsMenuShown] = useState(false);
@@ -14,6 +15,8 @@ function App() {
       <HeroSection isMenuShown={isMenuShown} />
       <Services />
       <Portfolio />
+      <Friends />
+
       <Contact />
     </>
   );

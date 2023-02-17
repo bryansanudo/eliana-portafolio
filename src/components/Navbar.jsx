@@ -20,6 +20,10 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
       link: "portafolio",
     },
     {
+      id: 5,
+      link: "colaboraciones",
+    },
+    {
       id: 4,
       link: "contacto",
     },
