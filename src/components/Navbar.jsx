@@ -30,7 +30,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
       <div className="fixed w-full h-40 bg-black text-white z-20 ">
         <div className="flex justify-between lg:justify-center md:gap-5 items-center max-w-screen-xl mx-auto px-4 h-full">
           <a
-            href="https://www.instagram.com/sarazapata144/"
+            href="https://www.instagram.com/elianacaro12/"
             target="_blank"
             rel="noreferrer"
           >
@@ -61,7 +61,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
           >
             {isMenuShown ? <FaTimes size={30} /> : <FaBars size={30} />}
           </div>
-          <a href="https://sara-marcas.vercel.app/">
+          <a href="https://eliana-portal-marcas.vercel.app/">
             <div>
               <img
                 src={logoEliana1}

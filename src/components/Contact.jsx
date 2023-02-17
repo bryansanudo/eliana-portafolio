@@ -19,7 +19,7 @@ const Contact = () => {
 
           <div className="w-[200px] sm:w-[350px]  md:w-[500px]  mt-10 group flex items-center justify-center gap-6 rounded-lg shadow-lg shadow-thPrimary  p-3  ">
             <a
-              href="https://www.instagram.com/sarazapata144/"
+              href="https://www.instagram.com/elianacaro12/"
               target="_blank"
               rel="noreferrer"
               className="group-hover:scale-105 duration-200"
